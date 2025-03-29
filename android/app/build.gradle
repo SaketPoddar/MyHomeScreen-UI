@@ -78,6 +78,7 @@ android {
     compileSdk rootProject.ext.compileSdkVersion
 
     namespace "com.loginpageapp"
+    
     defaultConfig {
         applicationId "com.loginpageapp"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -117,3 +118,5 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
