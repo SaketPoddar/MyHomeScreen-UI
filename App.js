@@ -6,6 +6,8 @@ import HomeScreen from './src/screen/HomeScreen';
 import LoginScreen from './src/screen/LoginScreen';
 import SignupScreen from './src/screen/SignupScreen';
 
+//LoginpageApp
+
 const Stack =createNativeStackNavigator();
 
 const App = () => {
